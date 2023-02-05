@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ['23990433'])
 API_HASH = environ['e6c4b6ee1933711bc4da9d7d17e1eb20']
-BOT_TOKEN = environ['BOT_TOKEN']
+BOT_TOKEN = environ['5977707387:AAHwoVtIjETuAoH4_u0XJgKa_1y9rUQ8ZQM']
 
 # Bot settings
 PORT = environ.get("PORT", "8080")
@@ -84,7 +84,7 @@ DELETE_TIME = int(environ.get('DELETE_TIME', 300))
 SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 50))
 
 # Url Shortner
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', '')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'api.shareus.in/shortLink')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
